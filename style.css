@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&family=Roboto:wght@300&display=swap');* {
+    box-sizing: border-box;
+}
+
+body{
+
+    width: 100%;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 80px;
+    background: #C4C4C4;
+   
+}
+#logo{
+    height: 60px;
+    margin-right: auto;
+}
+
+
+.nav-link{
+    list-style: none;
+    color:black
+}
+.nav-link li{
+    display: inline;
+    padding: 0px 20px;
+    position: relative;
+
+}
+.nav-link li a{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav-link li a:hover,
+.nav-link li a.active{
+    color: #00C800;
+}
+.nav-link li a.active::after{
+
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #00C800;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+button{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #00C800;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+
+
+button:hover{
+    background-color: #00C800;
+}
+.header-content .container-grid-2{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+
+
+}
+.header-content .container-grid-2 .columm-1{
+    align-items: center;
+    justify-content: center;
+}
+.search-box{
+    margin: 50px;
+    align-items: center;
+}
+
+
+
+
+
+
